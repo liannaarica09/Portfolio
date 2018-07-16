@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Contact Me</title>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122455397-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-122455397-1');
+	</script>
+
+
 	<link rel="stylesheet" href="assets/css/reset.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 	<header>
 		<div id="headerContent">
@@ -13,12 +30,18 @@
 			</div>
 			<nav>
 				<ul>
-					<li><a href="index.html" class="noBorder">About</a></li>
-					<li><a href="portfolio.html" class="leftBorder">Portfolio</a></li>
-					<li><a href="contact.html" class="leftBorder">Contact</a></li>
+					<li>
+						<a href="index.html" class="noBorder">About</a>
+					</li>
+					<li>
+						<a href="portfolio.html" class="leftBorder">Portfolio</a>
+					</li>
+					<li>
+						<a href="contact.html" class="leftBorder">Contact</a>
+					</li>
 				</ul>
 			</nav>
-	</div>
+		</div>
 	</header>
 
 	<div id="mainBody">
@@ -31,15 +54,23 @@
 				<input type="text" name="Email" placeholder="whoever@wherever.com">
 				<p>Message</p>
 				<textarea rows="20" cols="95"></textarea>
-				<div class="button"><a href="#">Submit</a></div>
+				<div class="button">
+					<a href="#">Submit</a>
+				</div>
 			</form>
 		</div>
 		<article id="sidebar">
 			<h2>Connect With Me</h2>
 			<div id="iconContainer">
-				<a href="https://github.com/liannaarica09"><img src="./assets/images/github.png" height="70" alt="github icon"></a>
-				<a href="https://www.linkedin.com/in/maureen-bockrath-98375654"><img src="./assets/images/linkedin.png" height="70" alt="linkedIn icon"></a>
-				<a href="https://stackoverflow.com/users/9162224/mimi"><img src="./assets/images/stackoverflow.png" height="70" alt="Stack Overflow icon"></a>
+				<a href="https://github.com/liannaarica09">
+					<img src="./assets/images/github.png" height="70" alt="github icon">
+				</a>
+				<a href="https://www.linkedin.com/in/maureen-bockrath-98375654">
+					<img src="./assets/images/linkedin.png" height="70" alt="linkedIn icon">
+				</a>
+				<a href="https://stackoverflow.com/users/9162224/mimi">
+					<img src="./assets/images/stackoverflow.png" height="70" alt="Stack Overflow icon">
+				</a>
 			</div>
 		</article>
 	</div>
@@ -49,4 +80,5 @@
 	</footer>
 
 </body>
+
 </html>
