@@ -4,6 +4,7 @@
 
 body {
 	background-image: url("../images/concrete_seamless.png");
+	height: 1vh;
 }
 
 header {
@@ -23,7 +24,7 @@ h1 {
 
 h2 {
 	font-size: 24px;
-	color: #4aaaa5;
+	color: #900abc;
 	border-bottom: 4px solid silver;
 }
 
@@ -42,12 +43,14 @@ a {
 
 .banner {
 	display: inline-block;
-	background-color: #4aaaa5;
+	background-color: #900abc;
 	padding: 30px 20px 30px 20px;
+	transform: skew(20deg);
 }
 
 .banner h1 {
 	color: white;
+	transform: skew(-20deg);
 }
 
 nav {
@@ -75,7 +78,7 @@ nav ul li a:hover {
 	-webkit-transform: scale(1.1);
 	-ms-transform: scale(1.1);
 	transform: scale(1.1);
-	color: #4aaaa5;
+	color: #900abc;
 }
 
 .leftBorder {
@@ -99,7 +102,7 @@ nav ul li a:hover {
 .content h1 {
 	padding: 20px;
 	border-bottom: 4px solid silver;
-	color: #4aaaa5;
+	color: #900abc;
 }
 
 .content img {
@@ -162,7 +165,7 @@ footer {
 	text-align: center;
 	padding: 15px;
 	background-color: grey;
-	border-top: 9px solid #4aaaa5;
+	border-top: 9px solid #900abc;
 }
 
 footer p {
@@ -202,7 +205,7 @@ footer p {
 .galleryBanner {
 	color: white;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	background-color: #4aaaa5;
+	background-color: #900abc;
 	width: 275px;
 	padding: 15px;
 	position: absolute;
@@ -224,7 +227,7 @@ footer p {
 }
 
 .galleryBanner:hover {
-	color: #4aaaa5;
+	color: #900abc;
 	background-color: rgba(255, 255, 255, .75);
 	box-shadow: 2px 2px 4px silver;
 }
@@ -247,7 +250,7 @@ textarea {
 .button {
 	width: 120px;
 	text-align: center;
-	background-color: #4aaaa5;
+	background-color: #900abc;
 	padding: 15px 30px;
 	margin: 20px 0px;
 }
@@ -261,23 +264,29 @@ textarea {
 	#headerContent {
 		width: 730px;
 	}
+
 	#mainBody {
 		width: 730px;
 	}
+
 	#profilePic {
 		float: none;
 		width: 99%;
 		margin: 0 auto;
 	}
+
 	.content {
 		width: 420px;
 	}
+
 	.content h1 {
 		margin-bottom: 25px;
 	}
+
 	#sidebar {
 		width: 270px;
 	}
+
 	.right,
 	.left {
 		float: none;
@@ -285,11 +294,13 @@ textarea {
 		margin: 60px auto 60px auto;
 		padding: 0px;
 	}
+
 	.galleryContent img {
 		float: none;
 		margin: auto;
 		width: 100%;
 	}
+
 	.galleryBanner {
 		width: 100%;
 	}
@@ -299,21 +310,25 @@ textarea {
 	#headerContent {
 		width: 90%;
 	}
+
 	#mainBody {
 		width: 100%;
 	}
+
 	#profilePic {
 		width: 360px;
 		float: left;
 		margin-right: 30px;
 		margin-bottom: 30px;
 	}
+
 	.content {
 		float: none;
 		width: 90%;
 		margin: 0 auto;
 		margin-top: 20px;
 	}
+
 	#sidebar {
 		float: none;
 		clear: both;
@@ -332,6 +347,7 @@ textarea {
 		text-align: center;
 		margin: 20px 0px 20px 0px;
 	}
+
 	.right {
 		float: right;
 		width: 49%;
@@ -339,31 +355,39 @@ textarea {
 		text-align: center;
 		margin: 20px 0px 20px 0px;
 	}
+
 	.content img {
 		float: left;
 	}
+
 	.galleryContent {
 		padding: 0px;
 	}
+
 	@media screen and (max-width: 690px) {
 		header {
 			height: 192px;
 		}
+
 		#headerContent {
 			width: 100%;
 		}
+
 		.banner {
 			display: block;
 			text-align: center;
 		}
+
 		nav {
 			background-color: white;
 			position: relative;
 		}
+
 		nav ul li {
 			text-align: center;
 			display: block;
 		}
+
 		nav ul li a {
 			width: 100%;
 			margin-top: 20%;
